@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>This React app is server rendered. NOICE :D.</p>
+        <p>This React app is server rendered with Parcel. NOICE :D.</p>
       </header>
     </div>
   );

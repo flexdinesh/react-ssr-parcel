@@ -31,7 +31,10 @@ const serverRenderer = (req, res, next) => {
 
 router.use("^/$", serverRenderer);
 router.use(
-  express.static(path.resolve(__dirname, "../..", "app/dist"), { maxAge: "30d" })
+  "/dist",
+  express.static(path.join(__dirname, "../../app/dist"), {
+    maxAge: "30d"
+  })
 );
 
 app.use(router);
