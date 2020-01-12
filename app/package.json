@@ -1,0 +1,24 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "NODE_ENV=development parcel src/index.html",
+    "build": "NODE_ENV=production parcel build src/index.html --no-minify --public-url /"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.7.3",
+    "babel-preset-react-app": "^9.1.0",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "postcss": {
+    "modules": false
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "not IE_Mob 11",
+    "maintained node versions"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "scripts": {
+    "start:server": "node index",
+    "start": "node dist/index",
+    "build": "NODE_ENV=development parcel build index.js --target node"
+  },
+  "dependencies": {
+    "babel-preset-react-app": "^9.1.0",
+    "express": "^4.17.1",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7"
+  }
+}
